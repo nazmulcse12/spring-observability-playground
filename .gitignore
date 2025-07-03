@@ -1,0 +1,68 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+
+# Spring Boot specific files
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven specific files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Eclipse specific files
+.classpath
+.project
+.settings/
+
+# Intellij IDEA specific files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code specific files
+.vscode/
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Temporary files created by the IDE or build system, not needed in version control.
+*.tmp
+*.bak
+
+# Ignore build output directories like Maven's target directory or Gradle's build directory.
+build/
+
+# Ignore generated test reports and logs.
+test-output/
+
+# Ignore environment-specific configuration files.
+.env
+
+# Ignore database-related temporary files.
+*.h2.db
+
+# Ignore local environment configuration.
+application-local.properties
